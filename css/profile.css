@@ -1,0 +1,39 @@
+.cen{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 20px;
+}
+body{
+    text-align: center;
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url(../assets/msg1188659646-3554.jpg);
+ }
+.cent{
+    text-decoration: none;
+    text-align: center;
+
+    margin-top: 2rem;                
+}
+.container{
+    margin-right: 250px;
+    padding: 20px;
+}
+.cen2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3rem;
+}
+.rem{
+    text-decoration: none;
+    padding: 1rem;
+    background-color: black;
+    color: bisque;
+    border-radius: 5px;
+}
+.rem:hover{
+    background-color: bisque;
+    color: black;
+}

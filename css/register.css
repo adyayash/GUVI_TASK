@@ -1,0 +1,48 @@
+.l{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+body{
+   text-align: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/msg1188659646-3554.jpg);
+}
+.fa{
+    display: inline-block;
+    border: 2px solid;
+    margin :60px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+input{
+    margin: 2px;
+}
+.head{
+    margin-top: 1rem;
+}
+.qw{
+    padding: 1rem;
+}
+.re{
+    color: rgb(69, 65, 60);
+}
+.btnn{
+    background-color: black;
+    color:yellow;
+    margin-bottom: 1rem;
+}
+.btnn:hover{
+    background-color: beige;
+    color: black;
+}
+.li{
+    color: black;
+    text-decoration: none;
+}
+.li:hover{
+    color:rgba(18, 15, 15, 0.941);
+}

@@ -1,0 +1,84 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Header</title>
+    <style>
+        body{
+            background-image: url(assets/bg_student.jpg);
+            height: auto;
+            width: 100%;
+        }
+        .navbar{
+    background-image: linear-gradient(to right, rgba(255, 0, 200, 0.245) , rgb(0, 255, 183));
+    color: white;
+    height: auto;
+    width: 100%;
+    padding-left: 40%;
+    padding-right: 50%;
+   
+    display: block;
+}
+header img{
+    float:left;
+    height: 50px;
+
+}
+
+.container-fluid{
+    padding: 10%;
+}
+
+.content{
+    margin-top: 150px;
+   
+    }
+button{
+    background-image: linear-gradient(to right, rgba(47, 24, 42, 0.245) , rgb(0, 255, 183));
+     padding: 15px;
+     width: 200px;
+     border-radius: 10%;
+
+}
+#heading{
+    text-align: center;
+    padding-top: 100px;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+@media screen and (max-width:700px){
+    .navbar .container-fluid{
+       flex-direction: column;
+    }
+}
+@media screen and (max-width:525px){
+    .container-fluid div a{
+        float: none;
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div>
+                        <img src="assets/GUVI_logo.png"> 
+                </div>
+            </div>
+        </nav>
+        <h1 id="heading">WELCOME TO <b>GUVI</b></h1>
+        <h5 style="text-align: center;color: rgb(245, 252, 250);">(Grab Ur Vernacular Imprint)</h5>
+        <div class="content">
+            <div class="col-md-12 text-center">
+            <a href="register.html"><button type="button" class="bt1" class="btn btn-success btn-lg">REGISTER</button></a>
+           <a href="login.html"> <button type="button" class="bt2" class="btn btn-success btn-lg">LOGIN</button></a>
+        </div></div>
+    </header>
+</body>
+</html>
